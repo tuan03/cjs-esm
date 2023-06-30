@@ -1,3 +1,7 @@
+
+
+# Common JS và ES Modules
+
 *Theo **mặc định**, NodeJS coi mã JavaScript là các mô-đun ***Common JS***.
 Cách đơn giản để sử dụng **ES Modules** trong dự án của bạn bằng cách thêm trường `type:"module"` bên trong tệp `package.json` gần nhất ( cùng thư mục với package bạn đang tạo).*
 ## Cú Pháp
