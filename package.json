@@ -1,0 +1,21 @@
+{
+  "name": "cjs-esm",
+  "version": "1.0.0",
+  "description": "*Theo **mặc định**, NodeJS coi mã JavaScript là các mô-đun ***Common JS***.\r Cách đơn giản để sử dụng **ES Modules** (không hỗ trợ cho Node.js v9 trở xuống) trong dự án của bạn bằng cách thêm trường `type:\"module\"` bên trong tệp `package.json` gần nhất ( cùng thư mục với package bạn đang tạo).*\r ## Cú Pháp",
+  "main": "using-both.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuan03/cjs-esm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuan03/cjs-esm/issues"
+  },
+  "homepage": "https://github.com/tuan03/cjs-esm#readme"
+}

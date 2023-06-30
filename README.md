@@ -3,7 +3,7 @@
 # Common JS và ES Modules
 
 *Theo **mặc định**, NodeJS coi mã JavaScript là các mô-đun ***Common JS***.
-Cách đơn giản để sử dụng **ES Modules** trong dự án của bạn bằng cách thêm trường `type:"module"` bên trong tệp `package.json` gần nhất ( cùng thư mục với package bạn đang tạo).*
+Cách đơn giản để sử dụng **ES Modules** (không hỗ trợ cho Node.js v9 trở xuống) trong dự án của bạn bằng cách thêm trường `type:"module"` bên trong tệp `package.json` gần nhất ( cùng thư mục với package bạn đang tạo).*
 ## Cú Pháp
  
 
@@ -22,7 +22,7 @@ Cách đơn giản để sử dụng **ES Modules** trong dự án của bạn b
 
 ## Cách dùng `module.exports`:
 
-- Xuất 1 variable, func, obj, class :
+- Xuất 1 variable, func, obj, class : (... export default)
 
       
       module.exports = myVariable;
@@ -36,8 +36,8 @@ Cách đơn giản để sử dụng **ES Modules** trong dự án của bạn b
 
       module.exports.value1 = value1;
       module.exports.value2 = value2;
-      //or
-      exports.myFunction = function() { // Code hàm };
+      //or (2 cách như nhau)
+      exports.value1 = value1;
       exports.myVariable = 'Hello';
 
 ## Cách Dùng `export` :
